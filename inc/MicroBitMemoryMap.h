@@ -36,6 +36,9 @@ DEALINGS IN THE SOFTWARE.
 #define REGION_MAKECODE 2
 #define REGION_PYTHON   3 
 
+namespace codal
+{
+
 /**
   * Class definition for the MicroBitMemoryMap class.
   * This allows reading and writing of regions within the memory map.
@@ -130,5 +133,7 @@ class MicroBitMemoryMap
      */
     int processRecord(uint32_t *address);
 };
+
+} // namespace codal
 
 #endif

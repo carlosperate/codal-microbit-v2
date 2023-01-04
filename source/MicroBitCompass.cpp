@@ -31,6 +31,8 @@ DEALINGS IN THE SOFTWARE.
 #include "MicroBitError.h"
 #include "LSM303Magnetometer.h"
 
+using namespace codal;
+
 Compass* MicroBitCompass::driver;
 
 /**

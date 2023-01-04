@@ -31,6 +31,8 @@ DEALINGS IN THE SOFTWARE.
 #define READ_AND_WRITE                  READ | WRITE
 #define CREATE                          MB_CREAT
 
+namespace codal
+{
 class MicroBitFile
 {
 
@@ -191,5 +193,6 @@ class MicroBitFile
       */
     ~MicroBitFile();
 };
+} // namespace codal
 
 #endif

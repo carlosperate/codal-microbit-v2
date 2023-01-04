@@ -272,4 +272,10 @@
     #define MICROBIT_USB_SERIAL_WAKE 0
 #endif
 
+// Enable/disable the user code to automatically use the 'codal' namespace
+// Set to '1' to enable global 'codal' namespace
+#ifndef MICROBIT_CODAL_NAMESPACE
+    #define MICROBIT_CODAL_NAMESPACE 1
+#endif
+
 #endif

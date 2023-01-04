@@ -34,6 +34,7 @@ DEALINGS IN THE SOFTWARE.
 #include "LSM303Accelerometer.h"
 #include "LSM303Magnetometer.h"
 
+using namespace codal;
 
 Accelerometer* MicroBitAccelerometer::driver;
 

@@ -313,7 +313,9 @@ namespace codal
 
 void microbit_dmesg_flush();
 
+#if CONFIG_ENABLED(CONFIG_MICROBIT_CODAL_NAMESPACE)
 using namespace codal;
+#endif
 
 #define DEVICE_ID_MICROPHONE 3001
 

@@ -402,6 +402,4 @@ namespace codal
     uint16_t htons(uint16_t v);
 };
 
-using namespace codal;
-
 #endif

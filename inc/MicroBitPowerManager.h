@@ -91,7 +91,7 @@ DEALINGS IN THE SOFTWARE.
 #define MICROBIT_UIPM_WRITE_FAIL        0x38                    // Generalise to any FAIL?
 #define MICROBIT_UIPM_BUSY              0x39
 
-
+namespace codal {
 
 //
 // Enumeration of device power modes
@@ -479,4 +479,5 @@ class MicroBitPowerManager : public CodalComponent
          */
         int simpleDeepSleep( bool wakeOnTime, CODAL_TIMESTAMP wakeUpTime, bool wakeUpSources, NRF52Pin *wakeUpPin);
 };
+} // namespace coda
 #endif

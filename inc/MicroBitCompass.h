@@ -30,6 +30,8 @@ DEALINGS IN THE SOFTWARE.
 #include "CoordinateSystem.h"
 #include "MicroBitAccelerometer.h"
 
+namespace codal
+{
 /**
  * Class definition for a general e-compass.
  */
@@ -259,5 +261,7 @@ class MicroBitCompass : public Compass
 // Backward Compatibility
 //
 typedef Sample3D CompassSample;
+
+} // namespace codal
 
 #endif

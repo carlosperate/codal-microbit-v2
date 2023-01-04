@@ -34,7 +34,8 @@ DEALINGS IN THE SOFTWARE.
 #include "codal-core/inc/driver-models/Pin.h"
 #include "codal-core/inc/types/CoordinateSystem.h"
 
-
+namespace codal
+{
 /**
  * Class definition for MicroBitAccelerometer.
  */
@@ -234,5 +235,6 @@ class MicroBitAccelerometer : public Accelerometer
          */
         ~MicroBitAccelerometer();
 };
+} // namespace codal
 
 #endif
